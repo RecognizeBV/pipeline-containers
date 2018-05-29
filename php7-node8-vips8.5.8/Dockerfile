@@ -37,7 +37,7 @@ RUN apt-get update \
         gtk-doc-tools \
         libglib2.0-dev \
         libturbojpeg1-dev \
-        libpng12-dev \
+        libpng-dev \
         libwebp-dev \
         libtiff5-dev \
         libgif-dev \
