@@ -36,7 +36,7 @@ RUN apt-get update \
         gobject-introspection \
         gtk-doc-tools \
         libglib2.0-dev \
-        libturbojpeg1-dev \
+        libturbojpeg-dev \
         libpng-dev \
         libwebp-dev \
         libtiff5-dev \
@@ -49,7 +49,7 @@ RUN apt-get update \
         libpango1.0-dev \
         libmatio-dev \
         libopenslide-dev \
-        libcfitsio3-dev \
+        libcfitsio-dev \
         libgsf-1-dev \
         fftw3-dev \
         liborc-0.4-dev \
