@@ -1,6 +1,6 @@
 FROM php:7.2
 RUN apt-get update \
-    && apt-get install -y unzip zlib1g-dev libicu-dev \
+    && apt-get install -y unzip zlib1g-dev git libicu-dev \
     && docker-php-ext-install pdo pdo_mysql zip intl \
     && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
